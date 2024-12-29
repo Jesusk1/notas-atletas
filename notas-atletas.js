@@ -25,7 +25,7 @@ console.log("La cantidad de atletas son " + atletas.length + ".");
 
 for (let i = 0; i < atletas.length; i++) {
     console.log("------")
-    console.log("Atletas: " + atletas[i].nome);
+    console.log("Atleta: " + atletas[i].nome);
     
     let notas = atletas[i].notas.sort(function(a,b){
         if (a < b) {

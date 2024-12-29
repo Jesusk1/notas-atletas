@@ -32,6 +32,7 @@ let atletas = [
    notas: [10, 10, 10, 9, 9.5]
  }
 ];
+
 A saída deve ser:
 
 Atleta: Cesar Abascal

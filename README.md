@@ -50,7 +50,9 @@ Média Válida: 9
 Atleta: Bruno Castro
 Notas Obtidas: 10,10,10,9,9.5
 Média Válida: 9.83333333333
-Dicas
+
+
+## Dicas
 
 ## 1. Utilize o laço for para percorrer todos os itens da matriz de objetos:
 

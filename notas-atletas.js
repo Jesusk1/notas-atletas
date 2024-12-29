@@ -1,3 +1,5 @@
+//Inputs
+
 let atletas = [
  {
    nome: "Cesar Abascal",
@@ -19,26 +21,29 @@ let atletas = [
 
 console.log("La cantidad de atletas son " + atletas.length + ".");
 
+//matriz e saidas no console
 
 for (let i = 0; i < atletas.length; i++) {
     console.log("------")
     console.log("Atletas: " + atletas[i].nome);
-    console.log("Notas obtidas: " + atletas[i].notas);
     
     let notas = atletas[i].notas.sort(function(a,b){
-        if (a > b) {
+        if (a < b) {
             return 1;
         }
-        if (a < b) {
+        if (a > b) {
             return - 1;
         }
         else {
             return 0;
         }
     });
+    //notas ordenadas
+    console.log("Notas obtidas: " + notas);
     
     let notasComputadas = notas.slice(1, 4);
     
+    //Calculo de media
     let soma = 0;
     let media = 0;
     notasComputadas.forEach(function(notas){
